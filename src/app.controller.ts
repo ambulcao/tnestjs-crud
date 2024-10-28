@@ -9,10 +9,6 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
   @Post()
   setHello(): string {
     return this.appService.setHello();
