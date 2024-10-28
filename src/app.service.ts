@@ -9,4 +9,7 @@ export class AppService {
   setHello(): string {
     return 'Post World!';
   }
+  setHello(): string {
+    return 'Post World!';
+  }
 }
